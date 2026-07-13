@@ -6,7 +6,7 @@ bookCollapseSection: true
 
 # The Technology
 
-The building blocks in **Primitive Building Blocks** are behaviors. This section is about the *implementations* — the successive logic families that built those behaviors from real transistors, each trading away the weaknesses of the one before. The progression is the classic lineage of digital electronics, and it is where references like the *TTL Cookbook* and *CMOS Sourcebook* live.
+The primitives in **Functional Building Blocks** are behaviors. This section is about the *implementations* — the successive logic families that built those behaviors from real transistors, each trading away the weaknesses of the one before. The progression is the classic lineage of digital electronics, and it is where references like the *TTL Cookbook* and *CMOS Sourcebook* live.
 
 Each family is worth understanding for a different reason:
 

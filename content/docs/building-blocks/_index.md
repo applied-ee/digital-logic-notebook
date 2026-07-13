@@ -1,10 +1,10 @@
 ---
-title: "🧱 Primitive Building Blocks"
+title: "🧱 Functional Building Blocks"
 weight: 2
 bookCollapseSection: true
 ---
 
-# Primitive Building Blocks
+# Functional Building Blocks
 
 This is the heart of the notebook. Everything digital — a microcontroller, an FPGA, a shift register on a hobby board — is ultimately assembled from a small set of primitives that do a handful of jobs. A gate makes a decision. A latch remembers. A counter counts. A multiplexer selects. A shift register moves data. And at the edges, analog helpers connect the discrete world back to the continuous one.
 

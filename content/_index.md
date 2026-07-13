@@ -51,7 +51,7 @@ Relays, tubes, and transistors — and the pressures that drove functionality on
 
 <div class="section-card">
 
-### [Primitive Building Blocks]({{< relref "/docs/building-blocks" >}})
+### [Functional Building Blocks]({{< relref "/docs/building-blocks" >}})
 
 The heart of the notebook: gates, storage, counting, selection, moving data, and analog helpers — the technology-independent primitives everything is built from.
 

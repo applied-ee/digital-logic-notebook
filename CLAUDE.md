@@ -25,14 +25,14 @@ Content uses a 3-level hierarchy: L0 (Parts) → L1 (subsections) → L2 (pages)
 | Weight | Directory | Title |
 |--------|-----------|-------|
 | 1 | `before-the-ic/` | Before the IC |
-| 2 | `building-blocks/` | Primitive Building Blocks |
+| 2 | `building-blocks/` | Functional Building Blocks |
 | 3 | `technology/` | The Technology |
 | 4 | `glue-logic-toolbox/` | The Glue Logic Toolbox |
 | 5 | `obsolete/` | What Became Obsolete? |
 | 6 | `modern-world/` | The Modern World |
 | 100 | `glossary/` | Glossary |
 
-**Primitive Building Blocks** is the heart, split into six L1 subsections, each carrying a one-line mental model:
+**Functional Building Blocks** is the heart, split into six L1 subsections, each carrying a one-line mental model:
 
 | Subsection | Mental model |
 |-----------|--------------|
