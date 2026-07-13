@@ -1,10 +1,10 @@
 ---
-title: "♻️ Part V — What Became Obsolete?"
+title: "♻️ What Became Obsolete?"
 weight: 5
 bookCollapseSection: true
 ---
 
-# Part V — What Became Obsolete?
+# What Became Obsolete?
 
 The most useful question to ask about any classic part is not "how does it work?" but "would I still design it in today, and if not, what replaced it?" This table is the honest answer. It is deliberately blunt: some parts are genuinely dead, some are quietly immortal, and the difference is worth knowing before reaching for either.
 

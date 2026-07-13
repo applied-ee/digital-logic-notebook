@@ -1,10 +1,10 @@
 ---
-title: "🧰 Part IV — The Glue Logic Toolbox"
+title: "🧰 The Glue Logic Toolbox"
 weight: 4
 bookCollapseSection: true
 ---
 
-# Part IV — The Glue Logic Toolbox
+# The Glue Logic Toolbox
 
 This is the section that most books leave out. Instead of organizing by chip — here is the 74HC595, here is what it does — it organizes by *problem*. A working engineer rarely thinks "I want a shift register"; they think "I need more outputs than my microcontroller has pins." This part maps the problem to the part that solves it.
 

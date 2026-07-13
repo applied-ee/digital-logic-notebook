@@ -24,15 +24,15 @@ Content uses a 3-level hierarchy: L0 (Parts) → L1 (subsections) → L2 (pages)
 
 | Weight | Directory | Title |
 |--------|-----------|-------|
-| 1 | `before-the-ic/` | Part I — Before the IC |
-| 2 | `building-blocks/` | Part II — Primitive Building Blocks |
-| 3 | `technology/` | Part III — The Technology |
-| 4 | `glue-logic-toolbox/` | Part IV — The Glue Logic Toolbox |
-| 5 | `obsolete/` | Part V — What Became Obsolete? |
-| 6 | `modern-world/` | Part VI — The Modern World |
+| 1 | `before-the-ic/` | Before the IC |
+| 2 | `building-blocks/` | Primitive Building Blocks |
+| 3 | `technology/` | The Technology |
+| 4 | `glue-logic-toolbox/` | The Glue Logic Toolbox |
+| 5 | `obsolete/` | What Became Obsolete? |
+| 6 | `modern-world/` | The Modern World |
 | 100 | `glossary/` | Glossary |
 
-**Part II** is the heart, split into six L1 subsections, each carrying a one-line mental model:
+**Primitive Building Blocks** is the heart, split into six L1 subsections, each carrying a one-line mental model:
 
 | Subsection | Mental model |
 |-----------|--------------|
@@ -43,7 +43,7 @@ Content uses a 3-level hierarchy: L0 (Parts) → L1 (subsections) → L2 (pages)
 | `moving-data/` | Hardware transports information. |
 | `analog-helpers/` | Digital systems still touch the analog world. |
 
-**Part IV** is organized by *problem* ("I need more outputs"), not by chip; its `_index.md` carries a problem→chip quick-reference table. **Part V** is a single reference page (obsolescence table), no leaf pages.
+**The Glue Logic Toolbox** is organized by *problem* ("I need more outputs"), not by chip; its `_index.md` carries a problem→chip quick-reference table. **What Became Obsolete?** is a single reference page (obsolescence table), no leaf pages.
 
 L0 and L1 directories use `bookCollapseSection: true` in their `_index.md` so they appear as collapsible items in the sidebar. L2 entries are leaf pages (`.md` files) inside the section/subsection directories. Most content pages are currently minimal stubs (`_This page is in progress._`); the structure is complete and prose is filled in over time.
 
@@ -89,7 +89,7 @@ An automatic glossary tooltip system links terms on every page (except the gloss
 
 **Key files:**
 - `data/glossary.json` — single source of truth (term, definition, anchor, aliases)
-- `content/docs/glossary/_index.md` — rendered glossary page (weight 99, last sidebar item)
+- `content/docs/glossary/_index.md` — rendered glossary page (weight 100, last sidebar item)
 - `static/js/glossary.js` — client-side auto-linking (first occurrence per term per page)
 - `layouts/shortcodes/glossary-list.html` — renders the full list on the glossary page
 - `layouts/partials/docs/inject/body.html` — injects glossary data + JS

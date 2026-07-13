@@ -1,10 +1,10 @@
 ---
-title: "🕰️ Part I — Before the IC"
+title: "🕰️ Before the IC"
 weight: 1
 bookCollapseSection: true
 ---
 
-# Part I — Before the IC
+# Before the IC
 
 Before logic could be bought as a part, it had to be built from whatever could hold two distinguishable states: a relay that was open or closed, a tube that conducted or didn't, a transistor that was on or off. Each of these represented a bit, and each came with its own penalties in size, power, heat, speed, and cost.
 

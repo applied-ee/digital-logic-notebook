@@ -1,12 +1,12 @@
 ---
-title: "🔬 Part III — The Technology"
+title: "🔬 The Technology"
 weight: 3
 bookCollapseSection: true
 ---
 
-# Part III — The Technology
+# The Technology
 
-The building blocks of Part II are behaviors. This part is about the *implementations* — the successive logic families that built those behaviors from real transistors, each trading away the weaknesses of the one before. The progression is the classic lineage of digital electronics, and it is where references like the *TTL Cookbook* and *CMOS Sourcebook* live.
+The building blocks in **Primitive Building Blocks** are behaviors. This section is about the *implementations* — the successive logic families that built those behaviors from real transistors, each trading away the weaknesses of the one before. The progression is the classic lineage of digital electronics, and it is where references like the *TTL Cookbook* and *CMOS Sourcebook* live.
 
 Each family is worth understanding for a different reason:
 

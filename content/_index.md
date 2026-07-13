@@ -43,7 +43,7 @@ digraph arc {
 
 <div class="section-card">
 
-### [Part I — Before the IC]({{< relref "/docs/before-the-ic" >}})
+### [Before the IC]({{< relref "/docs/before-the-ic" >}})
 
 Relays, tubes, and transistors — and the pressures that drove functionality onto silicon. Why NAND gates became products.
 
@@ -51,7 +51,7 @@ Relays, tubes, and transistors — and the pressures that drove functionality on
 
 <div class="section-card">
 
-### [Part II — Primitive Building Blocks]({{< relref "/docs/building-blocks" >}})
+### [Primitive Building Blocks]({{< relref "/docs/building-blocks" >}})
 
 The heart of the notebook: gates, storage, counting, selection, moving data, and analog helpers — the technology-independent primitives everything is built from.
 
@@ -59,7 +59,7 @@ The heart of the notebook: gates, storage, counting, selection, moving data, and
 
 <div class="section-card">
 
-### [Part III — The Technology]({{< relref "/docs/technology" >}})
+### [The Technology]({{< relref "/docs/technology" >}})
 
 The logic-family lineage — RTL, DTL, TTL, CMOS, HC/HCT, LVC/AHC, and tiny logic — and why the function survived every change of transistor.
 
@@ -67,7 +67,7 @@ The logic-family lineage — RTL, DTL, TTL, CMOS, HC/HCT, LVC/AHC, and tiny logi
 
 <div class="section-card">
 
-### [Part IV — The Glue Logic Toolbox]({{< relref "/docs/glue-logic-toolbox" >}})
+### [The Glue Logic Toolbox]({{< relref "/docs/glue-logic-toolbox" >}})
 
 Organized by problem, not by chip: the part to reach for when you need one inverter, a debounce, more I/O, an analog switch, level shifting, or a reset delay.
 
@@ -75,7 +75,7 @@ Organized by problem, not by chip: the part to reach for when you need one inver
 
 <div class="section-card">
 
-### [Part V — What Became Obsolete?]({{< relref "/docs/obsolete" >}})
+### [What Became Obsolete?]({{< relref "/docs/obsolete" >}})
 
 An honest reference: which classic parts are dead, which are quietly immortal, and what replaced the rest.
 
@@ -83,7 +83,7 @@ An honest reference: which classic parts are dead, which are quietly immortal, a
 
 <div class="section-card">
 
-### [Part VI — The Modern World]({{< relref "/docs/modern-world" >}})
+### [The Modern World]({{< relref "/docs/modern-world" >}})
 
 Microcontrollers, FPGAs, ASICs, and SoCs — how they absorbed logic rather than replacing it, and why discrete parts persist anyway.
 
