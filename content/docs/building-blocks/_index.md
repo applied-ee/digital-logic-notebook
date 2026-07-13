@@ -13,8 +13,11 @@ These primitives are technology-independent. The same handful of ideas recur whe
 ## Sections
 
 - **[Gates]({{< relref "gates" >}})** — *Gates make decisions.*
+- **[Boolean Foundations]({{< relref "boolean-foundations" >}})** — *Gates obey algebra.*
+- **[Arithmetic]({{< relref "arithmetic" >}})** — *Gates do math.*
 - **[Storage]({{< relref "storage" >}})** — *Gates remember.*
 - **[Counting]({{< relref "counting" >}})** — *Hardware can count without software.*
+- **[State Machines]({{< relref "state-machines" >}})** — *Hardware follows a plan.*
 - **[Selection]({{< relref "selection" >}})** — *Hardware routes information.*
 - **[Moving Data]({{< relref "moving-data" >}})** — *Hardware transports information.*
 - **[Analog Helpers]({{< relref "analog-helpers" >}})** — *Digital systems still touch the analog world.*

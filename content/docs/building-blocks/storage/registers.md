@@ -1,8 +1,8 @@
 ---
-title: "SoCs"
+title: "Registers"
 weight: 60
 ---
 
-# SoCs
+# Registers
 
 _This page is in progress._

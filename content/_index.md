@@ -53,7 +53,7 @@ Relays, tubes, and transistors — and the pressures that drove functionality on
 
 ### [Functional Building Blocks]({{< relref "/docs/building-blocks" >}})
 
-The heart of the notebook: gates, storage, counting, selection, moving data, and analog helpers — the technology-independent primitives everything is built from.
+The heart of the notebook: gates, Boolean foundations, arithmetic, storage, counting, state machines, selection, moving data, and analog helpers — the technology-independent primitives everything is built from.
 
 </div>
 
@@ -62,6 +62,14 @@ The heart of the notebook: gates, storage, counting, selection, moving data, and
 ### [Evolution of Implementation]({{< relref "/docs/implementation" >}})
 
 The logic-family lineage — RTL, DTL, TTL, CMOS, HC/HCT, LVC/AHC, and tiny logic — and why the function survived every change of transistor.
+
+</div>
+
+<div class="section-card">
+
+### [Timing & the Real World]({{< relref "/docs/timing" >}})
+
+Where the ideal abstraction leaks: propagation delay, setup/hold, clocks, metastability, and clock-domain crossing — the source of most puzzling hardware failures.
 
 </div>
 

@@ -1,8 +1,8 @@
 ---
-title: "ASICs"
+title: "Sequencers"
 weight: 50
 ---
 
-# ASICs
+# Sequencers
 
 _This page is in progress._

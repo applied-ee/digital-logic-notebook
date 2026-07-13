@@ -1,8 +1,8 @@
 ---
-title: "ASICs"
+title: "Karnaugh Maps"
 weight: 50
 ---
 
-# ASICs
+# Karnaugh Maps
 
 _This page is in progress._

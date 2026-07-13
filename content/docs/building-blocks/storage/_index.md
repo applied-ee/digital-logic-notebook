@@ -1,6 +1,6 @@
 ---
 title: "Storage"
-weight: 20
+weight: 40
 bookCollapseSection: true
 ---
 
@@ -17,3 +17,4 @@ Cross-couple a pair of gates so each drives the other, and the arrangement will 
 - **[D Flip-Flop]({{< relref "d-flip-flop" >}})** — Edge-triggered capture: the standard register bit.
 - **[JK Flip-Flop]({{< relref "jk-flip-flop" >}})** — The historically general-purpose flip-flop, including toggle.
 - **[T Flip-Flop]({{< relref "t-flip-flop" >}})** — Toggle on each clock: the building block of counters.
+- **[Registers]({{< relref "registers" >}})** — A row of flip-flops clocked together to hold a word.

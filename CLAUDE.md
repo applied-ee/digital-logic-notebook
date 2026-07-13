@@ -20,30 +20,38 @@ Everything on the site should reinforce one thesis: **digital design has evolved
 
 ## Section Structure
 
-Content uses a 3-level hierarchy: L0 (Parts) → L1 (subsections) → L2 (pages). The book is organized into six Parts, following the evolution from physical switches through the primitives and logic families to the integrated/programmable present.
+Content uses a 3-level hierarchy: L0 (chapters) → L1 (subsections) → L2 (pages). The book is organized into seven chapters, following the evolution from physical switches through the primitives, logic families, real-world timing, and the integrated/programmable present.
 
 | Weight | Directory | Title |
 |--------|-----------|-------|
 | 1 | `before-the-ic/` | Before the IC |
 | 2 | `building-blocks/` | Functional Building Blocks |
 | 3 | `implementation/` | Evolution of Implementation |
-| 4 | `glue-logic-toolbox/` | The Glue Logic Toolbox |
-| 5 | `obsolete/` | What Became Obsolete? |
-| 6 | `modern-world/` | The Modern World |
+| 4 | `timing/` | Timing & the Real World |
+| 5 | `glue-logic-toolbox/` | The Glue Logic Toolbox |
+| 6 | `obsolete/` | What Became Obsolete? |
+| 7 | `modern-world/` | The Modern World |
 | 100 | `glossary/` | Glossary |
 
-**Functional Building Blocks** is the heart, split into six L1 subsections, each carrying a one-line mental model:
+**Functional Building Blocks** is the heart, split into nine L1 subsections (weights 10–90), each carrying a one-line mental model:
 
 | Subsection | Mental model |
 |-----------|--------------|
 | `gates/` | Gates make decisions. |
+| `boolean-foundations/` | Gates obey algebra. |
+| `arithmetic/` | Gates do math. |
 | `storage/` | Gates remember. |
 | `counting/` | Hardware can count without software. |
+| `state-machines/` | Hardware follows a plan. |
 | `selection/` | Hardware routes information. |
 | `moving-data/` | Hardware transports information. |
 | `analog-helpers/` | Digital systems still touch the analog world. |
 
-**The Glue Logic Toolbox** is organized by *problem* ("I need more outputs"), not by chip; its `_index.md` carries a problem→chip quick-reference table. **What Became Obsolete?** is a single reference page (obsolescence table), no leaf pages.
+**Timing & the Real World** covers propagation delay, setup/hold, clocks, metastability, and clock-domain crossing. **The Glue Logic Toolbox** is organized by *problem* ("I need more outputs"), not by chip; its `_index.md` carries a problem→chip quick-reference table. **What Became Obsolete?** is a single reference page (obsolescence table), no leaf pages. **The Modern World** includes PLDs/CPLDs and HDL concepts alongside microcontrollers, FPGAs, ASICs, and SoCs.
+
+## Scope & the sibling notebooks
+
+This book is a superset of the EE Notebook's *Digital Electronics* section, going deeper on the logic devices themselves. It stays **logic-device-focused**: system/board-level topics that the siblings already own — signal integrity, power integrity/decoupling, transmission-line & high-speed effects, and bus-protocol details — are **cross-linked, not duplicated** (see the "Related, in the other notebooks" block in `timing/_index.md`). The EE Notebook owns board-level signal/power integrity; the Embedded notebook owns bus protocols and their firmware side.
 
 L0 and L1 directories use `bookCollapseSection: true` in their `_index.md` so they appear as collapsible items in the sidebar. L2 entries are leaf pages (`.md` files) inside the section/subsection directories. Most content pages are currently minimal stubs (`_This page is in progress._`); the structure is complete and prose is filled in over time.
 

@@ -1,6 +1,6 @@
 ---
 title: "Counting"
-weight: 30
+weight: 50
 bookCollapseSection: true
 ---
 
@@ -15,3 +15,4 @@ Chain toggling flip-flops together and the arrangement counts edges — no proce
 - **[Ripple Counters]({{< relref "ripple-counters" >}})** — Simple asynchronous chains, and the delay penalty they carry.
 - **[Synchronous Counters]({{< relref "synchronous-counters" >}})** — All stages clocked together for clean, fast counting.
 - **[Frequency Dividers]({{< relref "frequency-dividers" >}})** — Using counters to derive slower clocks from a fast one.
+- **[Ring & Johnson Counters]({{< relref "ring-and-johnson-counters" >}})** — Shift-register counters that trade code density for glitch-free decoding.

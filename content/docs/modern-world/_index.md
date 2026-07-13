@@ -1,6 +1,6 @@
 ---
 title: "🚀 The Modern World"
-weight: 6
+weight: 7
 bookCollapseSection: true
 ---
 
@@ -15,6 +15,8 @@ They didn't *replace* logic. They **absorbed** some of it. A timer/counter perip
 ## Sections
 
 - **[Microcontrollers]({{< relref "microcontrollers" >}})** — Logic plus a program: where counting and sequencing went.
+- **[PLDs & CPLDs]({{< relref "plds-cplds" >}})** — Programmable fixed-function logic: PAL, GAL, and CPLD, the step before the FPGA.
 - **[FPGAs]({{< relref "fpgas" >}})** — Configurable fabric: gates and flip-flops you define after manufacture.
+- **[HDL Concepts]({{< relref "hdl-concepts" >}})** — Describing logic in Verilog/VHDL: how programmable and custom silicon is actually designed.
 - **[ASICs]({{< relref "asics" >}})** — The primitives, fixed in silicon at scale.
 - **[SoCs]({{< relref "socs" >}})** — Whole systems — processors, logic, and analog — on one die.

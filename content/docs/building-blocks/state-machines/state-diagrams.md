@@ -1,8 +1,8 @@
 ---
-title: "FPGAs"
+title: "State Diagrams"
 weight: 30
 ---
 
-# FPGAs
+# State Diagrams
 
 _This page is in progress._

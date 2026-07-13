@@ -37,5 +37,94 @@
     "definition": "Field-Programmable Gate Array — an integrated circuit whose logic function is defined after manufacture by loading a configuration, typically built from a fabric of lookup tables, flip-flops, and programmable interconnect.",
     "anchor": "fpga",
     "aliases": ["Field-Programmable Gate Array"]
+  },
+  {
+    "term": "Boolean algebra",
+    "definition": "The algebra of two-valued logic (true/false, 1/0) using AND, OR, and NOT. Its identities let a logic expression be manipulated and simplified before it is committed to gates.",
+    "anchor": "boolean-algebra"
+  },
+  {
+    "term": "De Morgan's theorems",
+    "definition": "Two identities linking AND, OR, and inversion: NOT(A AND B) = NOT A OR NOT B, and NOT(A OR B) = NOT A AND NOT B. They are why NAND and NOR are each functionally complete.",
+    "anchor": "demorgans-theorems",
+    "aliases": ["De Morgan's theorem", "DeMorgan's theorems"]
+  },
+  {
+    "term": "Karnaugh map",
+    "definition": "A grid arrangement of a truth table, ordered so adjacent cells differ by one variable, used to minimize a Boolean function by grouping adjacent 1s. Practical up to about four to six variables.",
+    "anchor": "karnaugh-maps",
+    "aliases": ["K-map", "Karnaugh maps"]
+  },
+  {
+    "term": "finite state machine",
+    "definition": "A sequential circuit that occupies one of a finite set of states and moves between them based on inputs, computing outputs from the current state (and, in a Mealy machine, the inputs). The general form of all sequential logic.",
+    "anchor": "fsm-concepts",
+    "aliases": ["FSM", "state machine"]
+  },
+  {
+    "term": "Moore machine",
+    "definition": "A finite state machine whose outputs depend only on the current state, not directly on the inputs. Outputs are glitch-free and change only after a state transition.",
+    "anchor": "moore-vs-mealy"
+  },
+  {
+    "term": "Mealy machine",
+    "definition": "A finite state machine whose outputs depend on both the current state and the current inputs, allowing faster response than a Moore machine at the cost of possible output glitches.",
+    "anchor": "moore-vs-mealy"
+  },
+  {
+    "term": "setup time",
+    "definition": "The interval before a clock edge during which a flip-flop's data input must be stable. Violating it can drive the flip-flop into a metastable state.",
+    "anchor": "setup-and-hold"
+  },
+  {
+    "term": "hold time",
+    "definition": "The interval after a clock edge during which a flip-flop's data input must remain stable. Like setup time, violating it risks metastability.",
+    "anchor": "setup-and-hold"
+  },
+  {
+    "term": "metastability",
+    "definition": "A flip-flop's temporary residence in an undefined region between valid logic levels after a setup/hold violation. It resolves to a valid level after an unbounded time, which is why synchronizers are needed at clock-domain boundaries.",
+    "anchor": "metastability-and-synchronizers"
+  },
+  {
+    "term": "fan-out",
+    "definition": "The number of gate inputs a single output can drive while keeping logic levels and timing within spec. Exceeding it slows edges and erodes noise margin.",
+    "anchor": "propagation-delay-and-fan-out"
+  },
+  {
+    "term": "clock domain crossing",
+    "definition": "Passing a signal between two circuits clocked by unrelated (asynchronous) clocks. Requires a synchronizer or handshake to avoid metastability-induced failures.",
+    "anchor": "clock-domain-crossing",
+    "aliases": ["CDC"]
+  },
+  {
+    "term": "CPLD",
+    "definition": "Complex Programmable Logic Device — non-volatile programmable logic built from a handful of PAL-like blocks with a central interconnect. Sits between simple PLDs and FPGAs in capacity, with predictable timing and instant-on operation.",
+    "anchor": "plds-cplds",
+    "aliases": ["Complex Programmable Logic Device"]
+  },
+  {
+    "term": "PLD",
+    "definition": "Programmable Logic Device — a chip whose logic function is set by the user, historically via a programmable AND/OR array (PAL, GAL). The ancestor of the CPLD and FPGA.",
+    "anchor": "plds-cplds",
+    "aliases": ["Programmable Logic Device", "PAL", "GAL"]
+  },
+  {
+    "term": "HDL",
+    "definition": "Hardware Description Language — a language such as Verilog or VHDL that describes digital logic behaviorally or structurally, then synthesized into gates for an FPGA, CPLD, or ASIC.",
+    "anchor": "hdl-concepts",
+    "aliases": ["Hardware Description Language", "Verilog", "VHDL"]
+  },
+  {
+    "term": "ALU",
+    "definition": "Arithmetic Logic Unit — a combinational block that performs a selected arithmetic or logic operation (add, subtract, AND, OR, compare) on its operands. The computational core of a CPU datapath; the 74181 was the classic discrete example.",
+    "anchor": "alu",
+    "aliases": ["Arithmetic Logic Unit"]
+  },
+  {
+    "term": "full adder",
+    "definition": "A one-bit adder with carry-in and carry-out, summing three bits. Chaining N full adders yields an N-bit ripple-carry adder — the basis of hardware arithmetic.",
+    "anchor": "half-and-full-adders",
+    "aliases": ["half adder", "adder"]
   }
 ]

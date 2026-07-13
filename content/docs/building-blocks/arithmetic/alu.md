@@ -1,8 +1,8 @@
 ---
-title: "FPGAs"
-weight: 30
+title: "ALU"
+weight: 50
 ---
 
-# FPGAs
+# ALU
 
 _This page is in progress._
