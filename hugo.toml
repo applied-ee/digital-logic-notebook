@@ -1,6 +1,6 @@
 baseURL = "https://applied-ee.github.io/digital-logic-notebook/"
 languageCode = "en-us"
-title = "The Evolution of Digital Logic"
+title = "Digital Logic Notebook"
 theme = "hugo-book"
 
 # Enable git-based last modified dates
@@ -23,7 +23,7 @@ enableGitInfo = true
   # Section to use for the homepage
   BookSection = "docs"
   # Set site description for SEO
-  description = "A structured notebook chronicling the evolution of digital logic — from switches, relays, and discrete gates through memory, programmable devices, and the architectures that followed"
+  description = "A practical reference for digital logic — the building blocks practicing hardware engineers still reach for, from gates and flip-flops through the logic families and integrated devices that implement them"
 
 [markup]
   [markup.goldmark]

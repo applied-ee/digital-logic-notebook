@@ -1,10 +1,10 @@
 ---
-title: "🔬 The Technology"
+title: "⚙️ Evolution of Implementation"
 weight: 3
 bookCollapseSection: true
 ---
 
-# The Technology
+# Evolution of Implementation
 
 The primitives in **Functional Building Blocks** are behaviors. This section is about the *implementations* — the successive logic families that built those behaviors from real transistors, each trading away the weaknesses of the one before. The progression is the classic lineage of digital electronics, and it is where references like the *TTL Cookbook* and *CMOS Sourcebook* live.
 

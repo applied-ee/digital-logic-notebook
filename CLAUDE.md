@@ -1,8 +1,8 @@
-# The Evolution of Digital Logic — Project Conventions
+# Digital Logic Notebook — Project Conventions
 
 ## Purpose
 
-This is a structured notebook chronicling the evolution of digital logic — from mechanical switches, relays, and discrete gates through memory, programmable devices, and the integrated architectures that followed. The tone is exploratory and explanatory: recording concepts, tradeoffs, and the through-line that connects each generation of logic technology to the next. The emphasis is on *why* digital logic developed the way it did, not on cataloging devices.
+This is a practical working reference for digital logic — the building blocks practicing hardware engineers still reach for, from gates and flip-flops through the logic families and integrated devices that implement them. The tone is exploratory and explanatory: recording concepts, tradeoffs, and the through-line that connects each generation of logic technology to the next. Evolution is one thread — *why* the implementation changed while the primitives did not — not the point of the book.
 
 This is one volume in a set of engineering notebooks (alongside `ee-notebook` and `embedded`). It shares their voice, structure, and Hugo setup.
 
@@ -26,7 +26,7 @@ Content uses a 3-level hierarchy: L0 (Parts) → L1 (subsections) → L2 (pages)
 |--------|-----------|-------|
 | 1 | `before-the-ic/` | Before the IC |
 | 2 | `building-blocks/` | Functional Building Blocks |
-| 3 | `technology/` | The Technology |
+| 3 | `implementation/` | Evolution of Implementation |
 | 4 | `glue-logic-toolbox/` | The Glue Logic Toolbox |
 | 5 | `obsolete/` | What Became Obsolete? |
 | 6 | `modern-world/` | The Modern World |

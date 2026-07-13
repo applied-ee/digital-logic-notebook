@@ -1,10 +1,10 @@
 ---
-title: "The Evolution of Digital Logic"
+title: "Digital Logic Notebook"
 type: docs
 ---
 
 <div class="landing-hero">
-<h1>The Evolution of Digital Logic</h1>
+<h1>Digital Logic Notebook</h1>
 </div>
 
 Digital logic did not arrive fully formed. It was built up in layers — mechanical switches and relays giving way to vacuum tubes, tubes to discrete transistors, transistors to small-scale integrated gates, and gates to the dense programmable fabrics and processors that define modern hardware. Each layer solved the limits of the one before it, and each carried forward ideas that only make sense once the earlier layer is understood.
@@ -59,7 +59,7 @@ The heart of the notebook: gates, storage, counting, selection, moving data, and
 
 <div class="section-card">
 
-### [The Technology]({{< relref "/docs/technology" >}})
+### [Evolution of Implementation]({{< relref "/docs/implementation" >}})
 
 The logic-family lineage — RTL, DTL, TTL, CMOS, HC/HCT, LVC/AHC, and tiny logic — and why the function survived every change of transistor.
 

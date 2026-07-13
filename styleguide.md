@@ -1,6 +1,6 @@
 # Content Style Guide
 
-This document defines the structure, terminology, and intent of pages in *The Evolution of Digital Logic* notebook. Its purpose is consistency — not just in formatting, but in how readers develop **applied reasoning** about digital systems and the through-line that connects each era of logic technology.
+This document defines the structure, terminology, and intent of pages in the *Digital Logic Notebook*. Its purpose is consistency — not just in formatting, but in how readers develop **applied reasoning** about digital systems and the through-line that connects each era of logic technology.
 
 The goal is that after reading a handful of pages, a reader subconsciously knows:
 - where to find the core explanation of a technology or concept
