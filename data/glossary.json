@@ -1,0 +1,41 @@
+[
+  {
+    "term": "combinational logic",
+    "definition": "Logic whose outputs depend only on the present inputs, with no internal memory of past state. Gates, multiplexers, and decoders are combinational.",
+    "anchor": "combinational-logic",
+    "aliases": ["combinatorial logic"]
+  },
+  {
+    "term": "sequential logic",
+    "definition": "Logic whose outputs depend on both present inputs and stored internal state, so behavior is a function of history. Flip-flops, registers, and state machines are sequential.",
+    "anchor": "sequential-logic"
+  },
+  {
+    "term": "flip-flop",
+    "definition": "A single-bit storage element that holds one of two stable states and changes only on a defined trigger, usually a clock edge. The basic building block of sequential logic.",
+    "anchor": "flip-flop"
+  },
+  {
+    "term": "propagation delay",
+    "definition": "The time between a change at a logic element's input and the resulting change at its output. Accumulated propagation delay along a path sets the maximum usable clock speed.",
+    "anchor": "propagation-delay"
+  },
+  {
+    "term": "TTL",
+    "definition": "Transistor–Transistor Logic — a bipolar-transistor logic family that dominated small- and medium-scale integration from the late 1960s, defining conventions for logic levels and part numbering (the 7400 series) that outlived the technology itself.",
+    "anchor": "ttl",
+    "aliases": ["Transistor-Transistor Logic"]
+  },
+  {
+    "term": "CMOS",
+    "definition": "Complementary Metal-Oxide-Semiconductor — a logic family using complementary p- and n-channel MOSFETs that draws negligible static power and came to dominate digital integrated circuits.",
+    "anchor": "cmos",
+    "aliases": ["Complementary Metal-Oxide-Semiconductor"]
+  },
+  {
+    "term": "FPGA",
+    "definition": "Field-Programmable Gate Array — an integrated circuit whose logic function is defined after manufacture by loading a configuration, typically built from a fabric of lookup tables, flip-flops, and programmable interconnect.",
+    "anchor": "fpga",
+    "aliases": ["Field-Programmable Gate Array"]
+  }
+]
