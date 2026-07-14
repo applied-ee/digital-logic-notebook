@@ -1,6 +1,6 @@
 ---
 title: "🧱 Functional Building Blocks"
-weight: 2
+weight: 1
 bookCollapseSection: true
 ---
 

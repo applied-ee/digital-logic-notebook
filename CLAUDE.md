@@ -20,12 +20,12 @@ Everything on the site should reinforce one thesis: **digital design has evolved
 
 ## Section Structure
 
-Content uses a 3-level hierarchy: L0 (chapters) → L1 (subsections) → L2 (pages). The book is organized into seven chapters, following the evolution from physical switches through the primitives, logic families, real-world timing, and the integrated/programmable present.
+Content uses a 3-level hierarchy: L0 (chapters) → L1 (subsections) → L2 (pages). The book is organized into seven chapters. It opens with the implementation-agnostic building blocks (so the primitives are defined before anything references them), then follows the evolution of the hardware that realized them — the switches before the IC, the logic families, real-world timing, and the integrated/programmable present.
 
 | Weight | Directory | Title |
 |--------|-----------|-------|
-| 1 | `before-the-ic/` | Before the IC |
-| 2 | `building-blocks/` | Functional Building Blocks |
+| 1 | `building-blocks/` | Functional Building Blocks |
+| 2 | `before-the-ic/` | Before the IC |
 | 3 | `implementation/` | Evolution of Implementation |
 | 4 | `timing/` | Timing & the Real World |
 | 5 | `glue-logic-toolbox/` | The Glue Logic Toolbox |

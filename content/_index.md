@@ -26,7 +26,7 @@ In that sense the notebook aims to be the missing bridge between two familiar re
 
 ## How It's Organized
 
-The notebook follows the evolution of logic technology from the physical switches that first represented discrete states, through the primitive building blocks and the logic families that industrialized them, to the programmable and integrated forms that define current practice.
+The notebook starts with the building blocks — the gates, memory, and functions that are the same in every technology and independent of how they are implemented. From there it follows the evolution of the hardware that realized them: the switches before the integrated circuit, the logic families that industrialized them, and the programmable and integrated forms that define current practice.
 
 {{< graphviz >}}
 digraph arc {
@@ -43,17 +43,17 @@ digraph arc {
 
 <div class="section-card">
 
-### [Before the IC]({{< relref "/docs/before-the-ic" >}})
+### [Functional Building Blocks]({{< relref "/docs/building-blocks" >}})
 
-Relays, tubes, and transistors — and the pressures that drove functionality onto silicon. Why NAND gates became products.
+The heart of the notebook: gates, Boolean foundations, arithmetic, storage, counting, state machines, selection, moving data, and analog helpers — the technology-independent primitives everything is built from.
 
 </div>
 
 <div class="section-card">
 
-### [Functional Building Blocks]({{< relref "/docs/building-blocks" >}})
+### [Before the IC]({{< relref "/docs/before-the-ic" >}})
 
-The heart of the notebook: gates, Boolean foundations, arithmetic, storage, counting, state machines, selection, moving data, and analog helpers — the technology-independent primitives everything is built from.
+Relays, tubes, and transistors — how those primitives were first physically built, and the pressures that drove functionality onto silicon.
 
 </div>
 
