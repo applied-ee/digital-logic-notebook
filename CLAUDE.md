@@ -81,7 +81,7 @@ weight: 10
 - **No chronological structure in filenames**: The subject matter is historical, but the files themselves are not dated posts — no dates in filenames or frontmatter
 - **Neutral voice**: No first-person (*I*, *we*) or second-person (*you*, *your*) in body pages. Use neutral, observation-oriented phrasing. See `styleguide.md` for full voice rules. (The preface is the one signed, first-person exception.)
 - **Why over what**: Prefer explaining the problem a technology solved and the tradeoff it accepted over restating how a device is wired
-- **Standard L2 sections**: Tips, Caveats, In Practice — names and intent are fixed (see `styleguide.md`)
+- **Inline topic flow, no fixed sections**: Pages use `##` sections that follow the subject's own arc — there is *no* required Tips/Caveats/In Practice trio (that belongs to the EE Notebook). Limitations fold into the "why it was replaced" narrative; modern relevance earns a plain "Where it stands today" section. See `styleguide.md` → *Page Structure — Inline Topic Flow*. Keep the bold lead-in on bulleted points.
 - **Entry types**: Concepts, historical context, patterns, comparisons — no formal taxonomy required, just pick what fits
 
 ## Diagrams & Math

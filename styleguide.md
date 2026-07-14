@@ -75,94 +75,23 @@ Practical, grounded, historically aware.
 
 ---
 
-## Standard L2 Section Order
+## Page Structure — Inline Topic Flow
 
-Not every L2 page must contain every section, but **when a section exists, its name and intent are fixed**.
+Pages are organized by **their own subject, not a fixed template.** Use `##` sections that follow the natural arc of the topic, and let observations, limitations, and practical notes flow inline where they belong rather than being collected into standard closing buckets.
 
----
+There is **no required Tips / Caveats / In Practice trio.** That structure belongs to the bench-oriented *EE Notebook*, where it maps to hands-on troubleshooting; this book is explanatory and narrative, so forcing every page into those three buckets fights the material. Content that would once have gone there is re-homed:
 
-### 1. Core Explanation
-(Title varies: *How It Works*, *The Idea*, *Circuit Basics*, etc.)
+- **How something works and behaves** — its own section(s), titled for the subject (*How a Relay Works*, *The Idea*, *Behavior*).
+- **Limitations, failure modes, and tradeoffs** — folded into the narrative where they matter, most often in the "why it emerged / why it was replaced" discussion. A limitation is usually *part of the story*, not an appendix to it.
+- **Practical guidance and mental models** — placed next to the thing they clarify.
+- **Where it stands today / what persisted** — a genuine section when the subject earns one, since showing what carried forward is central to the book's thesis. Title it plainly (*Where Relays Stand Today*, *In Modern Use*).
 
-- Explains the concept or device itself
-- May include logic diagrams, timing diagrams, or truth tables
-- Minimal numeric detail
-- Focus on correctness, not application
+A common arc for an era- or device-page is: what it is → how it does logic → why it emerged and what it replaced (limits folded in) → where it stands today. Building-block pages follow their own shape: what it is → how it behaves → variants → how it is used. Neither is mandatory — the subject decides.
 
----
+Two habits survive from the older structure and still apply everywhere:
 
-### 2. Why It Emerged / What It Replaced
-(Optional but common)
-
-- The problem the technology or idea solved
-- The tradeoff it accepted to get there
-- What earlier approach it displaced, and why
-- Prefer **plain-language framing** over jargon
-
----
-
-### 3. Tips
-
-**Purpose:**
-Enable *correct understanding and use* of the concept.
-
-**Tips answer:**
-> "What should be understood or kept in mind to reason about this correctly?"
-
-**What goes here:**
-- Rules of thumb
-- Useful mental models
-- Sanity checks
-- Numeric guidance that teaches *scale* (logic levels, fan-out, typical delays)
-
-**What does NOT go here:**
-- Failure modes and traps
-- Root-cause analysis
-- Interpretive diagnosis
-
----
-
-### 4. Caveats
-
-**Purpose:**
-Prevent mistakes and false confidence.
-
-**Caveats answer:**
-> "Where does this break, mislead, or quietly fail?"
-
-**What goes here:**
-- Common misconceptions
-- Assumptions that don't hold across families or eras
-- Situations where intuition breaks
-- "This works… until it doesn't"
-
-**What does NOT go here:**
-- How the concept is applied correctly (that is Tips)
-- Interpretation of observed behavior (that is In Practice)
-
----
-
-### 5. In Practice
-
-**Purpose:**
-Tie the concept to **how it actually shows up** — in real circuits, in later technologies, or in the conventions that outlived it.
-
-In Practice answers:
-> "How does this concept explain what is seen in real hardware, or why later designs look the way they do?"
-
-**What goes here:**
-- How correct theory explains confusing or surprising behavior
-- Conventions that persisted after the original technology was gone
-- Ideas that reappear, unchanged, in a later era
-- Interpretation that links multiple observations together
-
-**Preferred framing:**
-- "often shows up as…"
-- "this convention survived into…"
-- "the same idea reappears in…"
-- "commonly appears when…"
-
-**In Practice is not a summary — it is a bridge between the concept and how it echoes forward.**
+- **Lead a bulleted point with a bold phrase** capturing its key idea, then the explanation: `- **Bold lead-in** — the rest.` Use bullets where a list genuinely helps; prefer flowing prose otherwise.
+- **Keep a paragraph to one idea.** Don't stack unrelated observations into a wall of text.
 
 ---
 
@@ -189,20 +118,9 @@ Also avoid long multi-idea paragraphs — prefer one observable idea per paragra
 
 ---
 
-## Consistent Terminology (Canonical)
+## Consistent Terminology
 
-Use these section names verbatim across all pages:
-
-- **Tips**
-- **Caveats**
-- **In Practice**
-
-Avoid:
-- "Practical Considerations"
-- "Why This Matters"
-- "Practice Notes" (unless a special callout)
-
-Consistency beats cleverness.
+Section headings are chosen per page (see *Page Structure — Inline Topic Flow*), so there are no canonical section names to enforce. What must stay consistent is **concept terminology**: use the same name for the same idea across pages (a *flip-flop* is always a flip-flop, *propagation delay* always that), and prefer the term the glossary defines so the tooltip auto-linking resolves. Consistency beats cleverness.
 
 ---
 
