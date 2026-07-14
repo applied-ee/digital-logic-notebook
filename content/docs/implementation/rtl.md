@@ -19,6 +19,12 @@ Simplicity came at a cost on every axis that matters for logic. The input resist
 
 The fix was to stop using resistors for the input logic and use diodes instead, which is precisely what [DTL]({{< relref "dtl" >}}) did — trading RTL's resistor networks for diode logic to buy back noise margin and fan-out.
 
+## What Was Built With It
+
+- **The Apollo Guidance Computer** — around 2,800 Fairchild RTL three-input [NOR gates]({{< relref "/docs/building-blocks/gates/nor" >}}), flying to the Moon on the simplest logic family there was.
+- **Aerospace and military electronics** — missile and satellite guidance, telemetry, and instrumentation, the buyers who could justify first-generation ICs while they were still expensive.
+- **Early digital instruments** — counters and test gear among the first commercial products to adopt integrated logic.
+
 ## Where It Stands Today
 
-RTL is genuinely obsolete; nothing new is designed with it. Its one enduring claim is historical and striking: the Apollo Guidance Computer was built almost entirely from RTL three-input [NOR gates]({{< relref "/docs/building-blocks/gates/nor" >}}) — one of the first mass uses of integrated logic, flying a spacecraft on the simplest gate family there was. RTL is worth knowing not as something to use but as the baseline the rest of the lineage improved on.
+RTL is genuinely obsolete; nothing new is designed with it. It is worth knowing not as a family to use but as the baseline the rest of the lineage improved on — the starting point every later family defined itself against.

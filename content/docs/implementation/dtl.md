@@ -19,6 +19,12 @@ Diodes gave DTL a real advantage over RTL — better noise margin and enough dri
 
 The insight that ended DTL was elegant: the string of separate input diodes could be replaced by a **single multi-emitter transistor**, which switches faster and actively helps pull charge out of the base. Combine that with an active (rather than resistive) output stage and the result is faster and stronger in one step. That combination *is* TTL — which is why DTL's real value is as the "before" picture that makes TTL's innovations obvious.
 
+## What Was Built With It
+
+- **Mid-1960s minicomputers and peripherals** — DTL parts such as Fairchild's popular 930 series filled the logic boards of the era's computers.
+- **Industrial and telephone-exchange control** — sequencing and interlock logic where DTL's better noise margin over RTL earned its place.
+- **Early electronic instrumentation** — meters, counters, and lab equipment built as integrated logic matured.
+
 ## Where It Stands Today
 
 Like RTL, DTL is dead as a design choice. Its worth is conceptual: it isolates the two things TTL improved — the input structure and the output stage — so that the family everyone actually remembers can be understood as a targeted fix rather than a leap out of nowhere.

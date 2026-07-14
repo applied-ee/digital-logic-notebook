@@ -21,6 +21,12 @@ They are built on the same low-voltage [CMOS]({{< relref "lvc-ahc" >}}) processe
 
 This part only makes sense in light of the book's larger story. Most logic has migrated *inside* [microcontrollers and FPGAs]({{< relref "/docs/modern-world" >}}); what remains discrete on a modern board is rarely a block of logic but a **single surgical fix** — invert one signal, debounce one button, shift one line between voltage domains, add one gate a chip forgot to provide. A quad package would waste three gates and the board space to route them. A single-gate part drops exactly one function exactly where it is needed.
 
+## What Was Built With It
+
+- **Smartphones, tablets, and wearables** — space-constrained boards where a single-gate package fits where a 14-pin part never could.
+- **Dense SMD designs needing just one gate** — a lone inverter, buffer, or level-shifter placed exactly where it's wanted.
+- **Board fixes without a respin** — adding a single gate to correct a polarity or insert a buffer, avoiding a costly redesign.
+
 ## Where It Stands Today
 
 Tiny logic is thoroughly current, and it is the physical embodiment of this book's thesis. Integration absorbed the *bulk* of logic into large chips, but it did not make the primitives disappear — it left the last few gates to be sprinkled in individually, right where a design needs them. The [glue-logic toolbox]({{< relref "/docs/glue-logic-toolbox" >}}) is, in large part, a catalog of when to reach for one.

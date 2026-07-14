@@ -17,6 +17,12 @@ The one place plain HC is awkward is interfacing with older 5 V [TTL]({{< relref
 
 74**HCT** solves exactly this: it is the same high-speed CMOS with its input thresholds shifted to be **TTL-compatible** (recognizing a high above 2.0 V), so it accepts TTL levels directly. The rule of thumb is simple — use HC in an all-CMOS design, and reach for HCT only when something is feeding it genuine TTL-level signals. It is the clearest small example of a family created purely to honor an [interface convention]({{< relref "ttl" >}}) that outlived the technology that set it.
 
+## What Was Built With It
+
+- **1980s–90s personal computers and peripherals** — the glue logic around the processor on motherboards and expansion cards.
+- **Consumer electronics** — VCRs, CD players, and similar gear leaned heavily on jellybean HC parts.
+- **Early microcontroller products** — the interfacing and glue bridging an MCU to the rest of a board.
+
 ## Where It Stands Today
 
 For 5 V (and often 3.3 V) discrete logic, 74HC/HCT is the modern baseline — cheap, universally stocked, robust, and well understood. It is no coincidence that most of the parts in the [glue-logic toolbox]({{< relref "/docs/glue-logic-toolbox" >}}) are HC: the 74HC595 for [more outputs]({{< relref "/docs/glue-logic-toolbox/more-outputs" >}}), the 74HC165 for [more inputs]({{< relref "/docs/glue-logic-toolbox/more-inputs" >}}), the 74HC14 Schmitt inverter for [debounce]({{< relref "/docs/glue-logic-toolbox/debounce" >}}). When a design just needs a gate or a function and voltage is not exotic, HC is the safe default; the [low-voltage families]({{< relref "lvc-ahc" >}}) take over when the supply drops below its range.

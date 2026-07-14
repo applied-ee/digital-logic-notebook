@@ -19,6 +19,12 @@ These are all [CMOS]({{< relref "cmos" >}}), refined for lower voltages, higher 
 
 A modern board rarely runs at a single 5 V rail; it is a patchwork of 3.3 V, 1.8 V, and lower domains around an MCU, FPGA, or SoC. Logic has to run at those voltages and, just as often, has to **move signals between them** — which is why level translation is a routine concern and why families with 5 V-tolerant I/O and dedicated translators exist. The [level-shifting]({{< relref "/docs/glue-logic-toolbox/level-shifting" >}}) entry in the glue-logic toolbox is built around exactly these parts: 74LVC for tolerant buffering, and the TXS/TXB translators for bidirectional domain crossing.
 
+## What Was Built With It
+
+- **Mobile phones and portable devices** — early low-voltage, battery-conscious designs running at 3.3 V and below.
+- **The 5 V-to-3.3 V transition** — LVC's 5 V-tolerant inputs made it the standard bridge between legacy 5 V parts and new low-voltage ones.
+- **Modern MCU, FPGA, and SoC boards** — the buffering and interfacing between mismatched supply domains.
+
 ## Where It Stands Today
 
 This is current production logic — what a new design's glue and interfacing is drawn from. The trend it embodies (lower voltage, higher speed, smaller packages, mixed-domain interfacing) also points directly at the next step, where the package shrinks all the way down to a single gate: [tiny logic]({{< relref "tiny-logic" >}}).

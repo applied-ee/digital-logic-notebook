@@ -17,10 +17,16 @@ The networks are naturally inverting, so the native gates are [NAND]({{< relref 
 
 Bipolar logic like [TTL]({{< relref "ttl" >}}) burns power continuously, whether or not it is doing anything. CMOS burns power only in proportion to how often it switches — its dynamic power is roughly C·V²·f (capacitance, supply voltage squared, switching frequency). That single property unlocked two things at once:
 
-- **Battery-powered electronics** — logic that idles at microamps made watches, calculators, and portable devices practical.
+- **Battery-powered electronics** — logic that idles at microamps made genuinely portable, battery-run devices practical.
 - **Very-large-scale integration** — you cannot cool a billion always-on bipolar transistors, but you *can* cool a billion transistors that each dissipate only when they switch. CMOS is what made packing millions and then billions of gates onto one die thermally possible.
 
 CMOS also brings a wide, forgiving supply range and high input impedance: a gate input is a capacitor, drawing no steady current, so DC fan-out is enormous and the real limit becomes how fast the driver can charge all that capacitance. The tradeoff is sensitivity — the thin gate oxide is vulnerable to static discharge, so CMOS parts need ESD care.
+
+## What Was Built With It
+
+- **Quartz digital watches** — the microamp idle current of CMOS is what made the battery-powered electronic watch practical.
+- **Portable, battery-powered instruments** — handheld meters and field gear expected to run for months on a single battery.
+- **Automotive electronics** — where CMOS's wide supply range and strong noise immunity suited the harsh 12-volt environment.
 
 ## Where It Stands Today
 

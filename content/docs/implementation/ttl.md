@@ -34,6 +34,12 @@ TTL's lasting legacy is not its circuitry but its *interfaces*. Two things in pa
 - **The 74xx part-numbering scheme** — 7400, 7404, 74138, 74595 — carried forward unchanged into every CMOS family that followed (74HC00, 74LVC138). A part's number still tells you its function regardless of the technology inside.
 - **TTL logic levels** — an output guaranteed above 2.4 V for a high and below 0.4 V for a low, with inputs recognizing above 2.0 V and below 0.8 V — became the reference that later families had to interoperate with. It is exactly why a "T"-suffixed CMOS part ([74HCT]({{< relref "hc-hct" >}})) exists: to accept those levels.
 
+## What Was Built With It
+
+- **1970s minicomputers** — the DEC PDP-11 and Data General Nova were assembled from boards of 74-series TTL.
+- **Early arcade video games** — Atari's Pong and its contemporaries were built entirely from TTL logic, with no microprocessor at all.
+- **Home-computer glue logic** — the support logic around the CPU in machines like the Apple II and TRS-80.
+
 ## Where It Stands Today
 
 New designs rarely specify bipolar TTL — it is slower and far hungrier than modern CMOS — but it is not a museum piece. Its numbering and levels are everywhere, its schematics are the ones found in decades of industrial equipment, and it is central to retrocomputing and to reading vintage designs. TTL is best understood as *mostly replaced in silicon but permanently present in convention*.
